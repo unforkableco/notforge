@@ -1,36 +1,64 @@
-\subsection{Q4 2025: Fundraising}
-\begin{itemize}[leftmargin=*]
-    \item Core team assembly
-    \item Platform architecture design
-    \item Initial token distribution
-    \item Proof of concept
-    \item Initial marketing campaign
-\end{itemize}
-
-\subsection{Q3 2026: Core Features}
-\begin{itemize}[leftmargin=*]
-    \item Alpha version of the platform
-    \item Integration with Bittensor marketplace
-    \item Beginning of training data collection
-    \item Agressive marketing campaign
-\end{itemize}
-
-\subsection{Q1 2027: Custom AI models}
-\begin{itemize}[leftmargin=*]
-    \item Integration of other AI platforms
-    \item Integration with Bittensor marketplace
-    \item Training of custom AI models
-\end{itemize}
-
-\subsection{Q2 2027: Release & Marketplace}
-\begin{itemize}[leftmargin=*]
-    \item Official release of the building platform
-    \item Introduction of the marketplace
-    \item Users can select AI models from the marketplace
-\end{itemize}
-
-\subsection{Q3 2027: Professional Services}
-\begin{itemize}[leftmargin=*]
-    \item Bounties
-    \item Assembly and 3D printing services added to marketplace
-\end{itemize}
+% Visual roadmap with timeline
+\begin{center}
+\begin{tikzpicture}[scale=1.0, transform shape]
+    % Timeline
+    \draw[line width=2.5pt, fabPrimary] (0,0) -- (14,0);
+    
+    % Nodes for each phase
+    \filldraw[fabPrimary] (0,0) circle (0.3) node[white, font=\bfseries] {1};
+    \filldraw[fabSecondary] (3.5,0) circle (0.3) node[white, font=\bfseries] {2};
+    \filldraw[fabAccent] (7,0) circle (0.3) node[white, font=\bfseries] {3};
+    \filldraw[fabSecondary] (10.5,0) circle (0.3) node[white, font=\bfseries] {4};
+    \filldraw[fabPrimary] (14,0) circle (0.3) node[white, font=\bfseries] {5};
+    
+    % Phase boxes with titles
+    \node[above, align=center, font=\bfseries, fill=fabLight, text=fabPrimary, rounded corners, minimum width=3cm, minimum height=0.7cm] at (0,0.7) {Q4 2025\\Fundraising};
+    \node[above, align=center, font=\bfseries, fill=fabLight, text=fabSecondary, rounded corners, minimum width=3cm, minimum height=0.7cm] at (3.5,0.7) {Q3 2026\\Core Features};
+    \node[above, align=center, font=\bfseries, fill=fabLight, text=fabAccent, rounded corners, minimum width=3.5cm, minimum height=0.7cm] at (7,0.7) {Q1 2027\\Custom AI Models};
+    \node[above, align=center, font=\bfseries, fill=fabLight, text=fabSecondary, rounded corners, minimum width=3.5cm, minimum height=0.7cm] at (10.5,0.7) {Q2 2027\\Release \& Marketplace};
+    \node[above, align=center, font=\bfseries, fill=fabLight, text=fabPrimary, rounded corners, minimum width=3cm, minimum height=0.7cm] at (14,0.7) {Q3 2027\\Professional Services};
+    
+    % Phase descriptions
+    \node[below, align=left, text width=3cm] at (0, -0.7) {
+        \begin{itemize}[leftmargin=10pt, itemsep=0pt, topsep=0pt]
+            \item Core team assembly
+            \item Architecture design
+            \item Token distribution
+            \item Proof of concept
+        \end{itemize}
+    };
+    
+    \node[below, align=left, text width=3cm] at (3.5, -0.7) {
+        \begin{itemize}[leftmargin=10pt, itemsep=0pt, topsep=0pt]
+            \item Alpha version
+            \item Bittensor integration
+            \item Data collection
+            \item Marketing campaign
+        \end{itemize}
+    };
+    
+    \node[below, align=left, text width=3.5cm] at (7, -0.7) {
+        \begin{itemize}[leftmargin=10pt, itemsep=0pt, topsep=0pt]
+            \item AI platform integration
+            \item Marketplace expansion
+            \item Custom model training
+        \end{itemize}
+    };
+    
+    \node[below, align=left, text width=3.5cm] at (10.5, -0.7) {
+        \begin{itemize}[leftmargin=10pt, itemsep=0pt, topsep=0pt]
+            \item Official platform release
+            \item Marketplace launch
+            \item AI model selection
+        \end{itemize}
+    };
+    
+    \node[below, align=left, text width=3cm] at (14, -0.7) {
+        \begin{itemize}[leftmargin=10pt, itemsep=0pt, topsep=0pt]
+            \item Bounties system
+            \item Assembly services
+            \item 3D printing services
+        \end{itemize}
+    };
+\end{tikzpicture}
+\end{center}
