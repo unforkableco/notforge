@@ -36,4 +36,112 @@
     \item Educational institutions
     \item Maker spaces
     \item Technology providers
-\end{itemize} 
+\end{itemize}
+
+% Marketing Strategy Visualization
+\begin{center}
+\begin{tikzpicture}[scale=0.95, transform shape]
+    % Define node styles
+    \tikzset{
+        strategy_box/.style={
+            rectangle,
+            rounded corners,
+            minimum width=5.5cm,
+            minimum height=1.2cm,
+            text width=5cm,
+            align=center,
+            font=\bfseries\sffamily,
+            text=white
+        },
+        item_box/.style={
+            rectangle,
+            rounded corners,
+            draw=fabGrey!30,
+            fill=fabLight,
+            minimum width=2.4cm,
+            minimum height=0.8cm,
+            text width=2.2cm,
+            align=center,
+            font=\small\sffamily
+        }
+    }
+    
+    % Target Markets (Top Center)
+    \fill[fabPrimary] (-2.75,7) rectangle (2.75,8.5);
+    \node[white, align=center, font=\bfseries\sffamily] at (0,7.75) {TARGET MARKETS};
+    % Target Market Items
+    \node[item_box] at (-3.5,6) {DIY Electronics Enthusiasts};
+    \node[item_box] at (0,6) {Small Businesses \& Startups};
+    \node[item_box] at (3.5,6) {Educational Institutions};
+    % Connect Target Markets to items
+    \draw[->, thick, fabPrimary] (-1.5,7) -- (-3.5,6.5);
+    \draw[->, thick, fabPrimary] (0,7) -- (0,6.5);
+    \draw[->, thick, fabPrimary] (1.5,7) -- (3.5,6.5);
+    
+    % Go-to-Market Strategy (Left Column)
+    \node[strategy_box, fill=fabSecondary] at (-6,3) {GO-TO-MARKET STRATEGY};
+    % Strategy Items
+    \node[item_box] at (-8,1.5) {Community-first Approach};
+    \node[item_box] at (-6,1.5) {AI Platform Partnerships};
+    \node[item_box] at (-4,1.5) {3D Model Platforms};
+    \node[item_box] at (-6,0.5) {Content Marketing};
+    % Connect Strategy to items
+    \draw[->, thick, fabSecondary] (-7,2.3) -- (-8,2);
+    \draw[->, thick, fabSecondary] (-6,2.3) -- (-6,2);
+    \draw[->, thick, fabSecondary] (-5,2.3) -- (-4,2);
+    \draw[->, thick, fabSecondary] (-6,2.3) -- (-6,1);
+    
+    % Growth Channels (Right Column)
+    \node[strategy_box, fill=fabAccent] at (6,3) {GROWTH CHANNELS};
+    % Growth Channel Items
+    \node[item_box] at (4,2) {Social Media};
+    \node[item_box] at (6,2) {Technical Blog \& Tutorials};
+    \node[item_box] at (8,2) {Industry Events};
+    \node[item_box] at (5,1) {Partnership Programs};
+    \node[item_box] at (7,1) {Referral System};
+    % Connect Growth to items
+    \draw[->, thick, fabAccent] (5,2.3) -- (4,2.3);
+    \draw[->, thick, fabAccent] (6,2.3) -- (6,2.3);
+    \draw[->, thick, fabAccent] (7,2.3) -- (8,2.3);
+    \draw[->, thick, fabAccent] (5.5,2.3) -- (5,1.3);
+    \draw[->, thick, fabAccent] (6.5,2.3) -- (7,1.3);
+    
+    % Competitive Advantage (Center)
+    \node[strategy_box, fill=fabPrimary] at (0,3) {COMPETITIVE ADVANTAGE};
+    % Advantage Items arranged in a diamond
+    \node[item_box] at (0,4) {AI-first Approach};
+    \node[item_box] at (-1.5,3) {Decentralized Infrastructure};
+    \node[item_box] at (1.5,3) {Open Ecosystem};
+    \node[item_box] at (0,2) {Sustainable Tokenomics};
+    % Connect Advantage to items with double-ended arrows
+    \draw[<->, thick, fabPrimary] (0,3.5) -- (0,3.7);
+    \draw[<->, thick, fabPrimary] (-0.7,3) -- (-1.1,3);
+    \draw[<->, thick, fabPrimary] (0.7,3) -- (1.1,3);
+    \draw[<->, thick, fabPrimary] (0,2.5) -- (0,2.3);
+    
+    % Partnership Strategy (Bottom)
+    \node[strategy_box, fill=fabGrey] at (0,-1.5) {PARTNERSHIP STRATEGY};
+    % Partnership Items
+    \node[item_box] at (-4.5,-3) {Component Manufacturers};
+    \node[item_box] at (-1.5,-3) {Educational Institutions};
+    \node[item_box] at (1.5,-3) {Maker Spaces};
+    \node[item_box] at (4.5,-3) {Technology Providers};
+    % Connect Partnership to items
+    \draw[->, thick, fabGrey] (-1.5,-2.2) -- (-4.5,-2.7);
+    \draw[->, thick, fabGrey] (-0.5,-2.2) -- (-1.5,-2.7);
+    \draw[->, thick, fabGrey] (0.5,-2.2) -- (1.5,-2.7);
+    \draw[->, thick, fabGrey] (1.5,-2.2) -- (4.5,-2.7);
+    
+    % Key connecting arrows between main sections
+    \draw[->, thick, fabDark] (0,6) -- (0,4.3);
+    \draw[->, thick, fabDark] (-3,3) -- (-4.7,3);
+    \draw[->, thick, fabDark] (3,3) -- (4.7,3);
+    \draw[->, thick, fabDark] (0,2) -- (0,0);
+    
+    % Divider between top and bottom sections
+    \draw[dashed, fabGrey, line width=1pt] (-9,0) -- (9,0);
+    
+    % Connect divider to Partnership Strategy
+    \draw[->, thick, fabDark] (0,0) -- (0,-1.1);
+\end{tikzpicture}
+\end{center} 

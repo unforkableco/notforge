@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2025.5.16)  16 MAY 2025 22:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2025.5.16)  16 MAY 2025 23:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**FABRIKATOR_LIGHTPAPER.tex
-(./FABRIKATOR_LIGHTPAPER.tex
+**FORGE_LIGHTPAPER.tex
+(./FORGE_LIGHTPAPER.tex
 LaTeX2e <2020-02-02> patch level 2
 L3 programming layer <2020-02-14>
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -638,6 +638,10 @@ File: pgflibraryplotmarks.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 zlibrarypositioning.code.tex
 File: tikzlibrarypositioning.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2020/01/20 v2.17e AMS math features
 \@mathmargin=\skip53
@@ -784,53 +788,123 @@ Package: titling 2009/09/04 v2.1d maketitle typesetting
 \thanksmargin=\skip67
 \droptitle=\skip68
 )
+(/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
+\c@tracingmulticols=\count304
+\mult@box=\box71
+\multicol@leftmargin=\dimen285
+\c@unbalance=\count305
+\c@collectmore=\count306
+\doublecol@number=\count307
+\multicoltolerance=\count308
+\multicolpretolerance=\count309
+\full@width=\dimen286
+\page@free=\dimen287
+\premulticols=\dimen288
+\postmulticols=\dimen289
+\multicolsep=\skip69
+\multicolbaselineskip=\skip70
+\partial@page=\box72
+\last@line=\box73
+\maxbalancingoverflow=\dimen290
+\mult@rightbox=\box74
+\mult@grightbox=\box75
+\mult@gfirstbox=\box76
+\mult@firstbox=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\@tempa=\box98
+\@tempa=\box99
+\@tempa=\box100
+\@tempa=\box101
+\@tempa=\box102
+\@tempa=\box103
+\@tempa=\box104
+\@tempa=\box105
+\@tempa=\box106
+\@tempa=\box107
+\@tempa=\box108
+\@tempa=\box109
+\@tempa=\box110
+\@tempa=\box111
+\@tempa=\box112
+\@tempa=\box113
+\@tempa=\box114
+\c@minrows=\count310
+\c@columnbadness=\count311
+\c@finalcolumnbadness=\count312
+\last@try=\dimen291
+\multicolovershoot=\dimen292
+\multicolundershoot=\dimen293
+\mult@nat@firstbox=\box115
+\colbreak@box=\box116
+\mc@col@check@num=\count313
+)
 (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 80.
+Package hyperref Info: Option `colorlinks' set `true' on input line 81.
 
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count304
-\l__pdf_internal_box=\box71
+\l__kernel_color_stack_int=\count314
+\l__pdf_internal_box=\box117
 )
-(./FABRIKATOR_LIGHTPAPER.aux)
-\openout1 = `FABRIKATOR_LIGHTPAPER.aux'.
+(./FORGE_LIGHTPAPER.aux)
+\openout1 = `FORGE_LIGHTPAPER.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 119.
+LaTeX Font Info:    ... okay on input line 119.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 119.
+LaTeX Font Info:    ... okay on input line 119.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 119.
+LaTeX Font Info:    ... okay on input line 119.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 119.
+LaTeX Font Info:    ... okay on input line 119.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 119.
+LaTeX Font Info:    ... okay on input line 119.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 119.
+LaTeX Font Info:    ... okay on input line 119.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 119.
+LaTeX Font Info:    ... okay on input line 119.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 119.
+LaTeX Font Info:    ... okay on input line 119.
 LaTeX Font Info:    Trying to load font information for T1+pag on input line 11
-8.
+9.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pag.fd
 File: t1pag.fd 2001/06/04 font definitions for T1/pag.
 )
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count305
-\scratchdimen=\dimen285
-\scratchbox=\box72
-\nofMPsegments=\count306
-\nofMParguments=\count307
+\scratchcounter=\count315
+\scratchdimen=\dimen294
+\scratchbox=\box118
+\nofMPsegments=\count316
+\nofMParguments=\count317
 \everyMPshowfont=\toks46
-\MPscratchCnt=\count308
-\MPscratchDim=\dimen286
-\MPnumerator=\count309
-\makeMPintoPDFobject=\count310
+\MPscratchCnt=\count318
+\MPscratchDim=\dimen295
+\MPnumerator=\count319
+\makeMPintoPDFobject=\count320
 \everyMPtoPDFconversion=\toks47
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -849,8 +923,8 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\AtBeginShipoutBox=\box73
-Package hyperref Info: Link coloring ON on input line 118.
+\AtBeginShipoutBox=\box119
+Package hyperref Info: Link coloring ON on input line 119.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -861,15 +935,15 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count311
+\c@section@level=\count321
 )
-LaTeX Info: Redefining \ref on input line 118.
-LaTeX Info: Redefining \pageref on input line 118.
-LaTeX Info: Redefining \nameref on input line 118.
+LaTeX Info: Redefining \ref on input line 119.
+LaTeX Info: Redefining \pageref on input line 119.
+LaTeX Info: Redefining \nameref on input line 119.
 
-(./FABRIKATOR_LIGHTPAPER.out) (./FABRIKATOR_LIGHTPAPER.out)
+(./FORGE_LIGHTPAPER.out) (./FORGE_LIGHTPAPER.out)
 \@outlinefile=\write6
-\openout6 = `FABRIKATOR_LIGHTPAPER.out'.
+\openout6 = `FORGE_LIGHTPAPER.out'.
 
 
 *geometry* driver: auto-detecting
@@ -910,14 +984,14 @@ ABD: EveryShipout initializing macros
 Package pgfplots notification 'compat/show suggested version=true': document ha
 s been generated with the most recent feature set (\pgfplotsset{compat=1.16}).
 
-LaTeX Info: Redefining \microtypecontext on input line 118.
+LaTeX Info: Redefining \microtypecontext on input line 119.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `basictext'.
-LaTeX Info: Redefining \showhyphens on input line 118.
+LaTeX Info: Redefining \showhyphens on input line 119.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -926,30 +1000,29 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/pag/b/n' in size <24.88> not available
-(Font)              Font shape `T1/pag/db/n' tried instead on input line 127.
+(Font)              Font shape `T1/pag/db/n' tried instead on input line 128.
 LaTeX Font Info:    Font shape `T1/pag/b/n' in size <40> not available
-(Font)              Font shape `T1/pag/db/n' tried instead on input line 135.
+(Font)              Font shape `T1/pag/db/n' tried instead on input line 136.
 LaTeX Font Info:    Font shape `T1/pag/b/n' in size <17.28> not available
-(Font)              Font shape `T1/pag/db/n' tried instead on input line 141.
+(Font)              Font shape `T1/pag/db/n' tried instead on input line 142.
 LaTeX Font Info:    Font shape `T1/pag/b/n' in size <14.4> not available
-(Font)              Font shape `T1/pag/db/n' tried instead on input line 146.
+(Font)              Font shape `T1/pag/db/n' tried instead on input line 147.
 LaTeX Font Info:    Font shape `T1/pag/b/n' in size <10.95> not available
-(Font)              Font shape `T1/pag/db/n' tried instead on input line 151.
+(Font)              Font shape `T1/pag/db/n' tried instead on input line 152.
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-(./FABRIKATOR_LIGHTPAPER.toc
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./FORGE_LIGHTPAPER.toc
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 ))
 \tf@toc=\write7
-\openout7 = `FABRIKATOR_LIGHTPAPER.toc'.
+\openout7 = `FORGE_LIGHTPAPER.toc'.
 
  [1]
 (./sections/executive_summary.tex
-LaTeX Font Info:    Trying to load font information for TS1+pag on input line 6
-.
+LaTeX Font Info:    Trying to load font information for TS1+pag on input line 2
+5.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1pag.fd
 File: ts1pag.fd 2001/06/04 font definitions for TS1/pag.
@@ -962,7 +1035,7 @@ Package microtype Info: Loading generic protrusion settings for font family
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.171 \clearpage
+l.172 \clearpage
                  [1
 
 ] (./sections/vision_market.tex
@@ -983,50 +1056,76 @@ LaTeX Font Info:    Font shape `T1/pag/b/n' in size <12> not available
 ]
 (./sections/tokenomics.tex [7
 
-] [8] [9]
+] [8]
+LaTeX Font Info:    Trying to load font information for U+fontawesometwo on inp
+ut line 162.
+
+(/usr/share/texlive/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
+File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
+)
+
+LaTeX Font Warning: Font shape `U/fontawesometwo/b/n' undefined
+(Font)              using `U/fontawesometwo/m/n' instead on input line 162.
+
+[9] [10]
 Missing character: There is no ; in font nullfont!
- [10]) [11] (./sections/roadmap.tex
+ [11]) [12] (./sections/roadmap.tex
 Overfull \hbox (8.01535pt too wide) in paragraph at lines 63--64
  [][] 
  []
 
-) [12
+) [13
 
-] (./sections/market_strategy.tex) [13
+] (./sections/market_strategy.tex
+Overfull \hbox (3.68681pt too wide) in paragraph at lines 113--113
+ [][]\T1/pag/m/n/10 (-20) Decentralized 
+ []
 
-] (./sections/conclusion.tex)
+
+Overfull \hbox (4.20265pt too wide) in paragraph at lines 146--147
+ [] 
+ []
+
 [14
 
+]) [15] (./sections/conclusion.tex) [16
+
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 216.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 216.
- (./FABRIKATOR_LIGHTPAPER.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 216.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 216.
-Package rerunfilecheck Info: File `FABRIKATOR_LIGHTPAPER.out' has not changed.
-(rerunfilecheck)             Checksum: E54A436DF8CE9BF867CBAC0FF74B0179;2103.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 216.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 217.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 217.
+ (./FORGE_LIGHTPAPER.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 217.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 217.
+Package rerunfilecheck Info: File `FORGE_LIGHTPAPER.out' has not changed.
+(rerunfilecheck)             Checksum: 78A8014568F05D409A0DB50B70A89472;2038.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 217.
  ) 
 Here is how much of TeX's memory you used:
- 33295 strings out of 483107
- 774601 string characters out of 5964630
- 1165990 words of memory out of 5000000
- 47610 multiletter control sequences out of 15000+600000
- 583729 words of font info for 108 fonts, out of 8000000 for 9000
+ 33596 strings out of 483107
+ 779849 string characters out of 5964630
+ 1177848 words of memory out of 5000000
+ 47882 multiletter control sequences out of 15000+600000
+ 588637 words of font info for 121 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 80i,17n,127p,958b,2372s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/avant
-gar/uagd8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/avantgar/uagk8a.p
-fb>
-Output written on FABRIKATOR_LIGHTPAPER.pdf (16 pages, 97723 bytes).
+ 80i,17n,127p,953b,2372s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc
+}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive
+/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/avantga
+r/uagd8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/avantgar/uagk8a.pfb
+>
+Output written on FORGE_LIGHTPAPER.pdf (18 pages, 125286 bytes).
 PDF statistics:
- 296 PDF objects out of 1000 (max. 8388607)
- 268 compressed objects within 3 object streams
- 58 named destinations out of 1000 (max. 500000)
- 20245 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 304 PDF objects out of 1000 (max. 8388607)
+ 273 compressed objects within 3 object streams
+ 59 named destinations out of 1000 (max. 500000)
+ 24333 words of extra memory for PDF output out of 24883 (max. 10000000)
 
