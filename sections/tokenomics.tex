@@ -1,26 +1,26 @@
-\highlightBox{Utility}{
+\highlightBox{\faBitcoin\ Utility}{
 The FRGE token is designed as a utility token that primarily serves as an investment vehicle and purchasing power for !Forge projects. Unlike traditional utility tokens, FRGE is not used for platform fees, governance, or AI service payments.
 }
 
-\subsection*{User Tiers and Data Monetization}
+\subsection*{\faUsers\ User Tiers and Data Monetization}
 
 !Forge offers two user tiers: Free and Premium.
 
 \begin{itemize}[leftmargin=*]
-    \item \textbf{\textcolor{fabPrimary}{Free Users:}} Do not pay platform fees. Their project data may be sold by the platform (for FRGE tokens) to AI trainers, creating ongoing demand for FRGE. Free users pay for AI services in FIAT or TAO and can purchase marketplace content with FIAT or FRGE.
-    \item \textbf{\textcolor{fabSecondary}{Premium Users:}} Pay a monthly subscription fee in FIAT for enhanced privacy; their project data is neither sold nor used for AI training. Premium users can also purchase marketplace content with FIAT or FRGE. Premium users can decide to sell their projects data to earn FRGE tokens when their data is used.
+    \item \textbf{\textcolor{fabPrimary}{\faUser\ Free Users:}} Do not pay platform fees. Their project data may be sold by the platform (for FRGE tokens) to AI trainers, creating ongoing demand for FRGE. Free users pay for AI services in FIAT or TAO and can purchase marketplace content with FIAT or FRGE.
+    \item \textbf{\textcolor{fabAccent}{\faUserPlus\ Premium Users:}} Pay a monthly subscription fee in FIAT for enhanced privacy; their project data is neither sold nor used for AI training. Premium users can also purchase marketplace content with FIAT or FRGE. Premium users can decide to sell their projects data to earn FRGE tokens when their data is used.
 \end{itemize}
 
-\subsection*{Token Utility}
+\subsection*{\faExchange\ Token Utility}
 \begin{itemize}[leftmargin=*]
-    \item \textbf{\textcolor{fabPrimary}{Project Investment \& Purchasing Power:}} FRGE tokens provide investors with purchasing power for projects created on the platform, enabling them to acquire projects that can be used to train their AI models
-    \item \textbf{\textcolor{fabPrimary}{Project Monetization:}} Premium users can sell their completed projects for FRGE tokens
-    \item \textbf{\textcolor{fabPrimary}{Bounty Payments:}} FRGE tokens can be used to pay for bounties on the platform
-    \item \textbf{\textcolor{fabPrimary}{Professional Services:}} Assembly and 3D printing professionals can accept FRGE as payment for their services
-    \item \textbf{\textcolor{fabPrimary}{Data Purchases:}} AI trainers and providers can purchase project data (from the platform or from premium users) using FRGE tokens, creating ongoing demand. \textbf{All FRGE earned from data sales is burned by the platform.}
+    \item \textbf{\textcolor{fabRed}{\faBitcoin\ Project Investment \& Purchasing Power:}} FRGE tokens provide investors with purchasing power for projects created on the platform, enabling them to acquire projects that can be used to train their AI models
+    \item \textbf{\textcolor{fabRed}{\faDollar\ Project Monetization:}} Premium users can sell their completed projects for FRGE tokens
+    \item \textbf{\textcolor{fabRed}{\faBullseye\ Bounty Payments:}} FRGE tokens can be used to pay for bounties on the platform
+    \item \textbf{\textcolor{fabRed}{\faWrench\ Professional Services:}} Assembly and 3D printing professionals can accept FRGE as payment for their services
+    \item \textbf{\textcolor{fabRed}{\faDatabase\ Data Purchases:}} AI trainers and providers can purchase project data (from the platform or from premium users) using FRGE tokens, creating ongoing demand. \textbf{All FRGE earned from data sales is burned by the platform.}
 \end{itemize}
 
-\subsection*{Token Distribution}
+\subsection*{\faPieChart\ Token Distribution}
 
 % Create a custom pie chart for token distribution
 \begin{center}
@@ -32,44 +32,44 @@ The FRGE token is designed as a utility token that primarily serves as an invest
     \fill[fabPrimary] (0,0) -- (0:\radius) arc (0:144:\radius) -- cycle;
     
     % Team slice (20%)
-    \fill[fabSecondary] (0,0) -- (144:\radius) arc (144:216:\radius) -- cycle;
+    \fill[fabAccent] (0,0) -- (144:\radius) arc (144:216:\radius) -- cycle;
     
     % Ecosystem slice (20%)
-    \fill[fabAccent] (0,0) -- (216:\radius) arc (216:288:\radius) -- cycle;
+    \fill[fabRed] (0,0) -- (216:\radius) arc (216:288:\radius) -- cycle;
     
     % Liquidity slice (20%)
     \fill[fabGrey] (0,0) -- (288:\radius) arc (288:360:\radius) -- cycle;
     
-    % Add labels with percentages
-    \node[white, font=\bfseries] at (72:\radius*0.7) {Investors: 40\%};
-    \node[white, font=\bfseries] at (180:\radius*0.7) {Team: 20\%};
-    \node[white, font=\bfseries] at (252:\radius*0.7) {Ecosystem: 20\%};
-    \node[white, font=\bfseries] at (324:\radius*0.7) {Liquidity: 20\%};
+    % Add labels with percentages and icons
+    \node[fabAccent, font=\bfseries] at (72:\radius*0.7) {\faUsers\ Investors: 40\%};
+    \node[fabPrimary, font=\bfseries] at (180:\radius*0.7) {\faUser\ Team: 20\%};
+    \node[white, font=\bfseries] at (252:\radius*0.7) {\faGlobe\ Ecosystem: 20\%};
+    \node[white, font=\bfseries] at (324:\radius*0.7) {\faCircle\ Liquidity: 20\%};
 \end{tikzpicture}
 \end{center}
 
 \begin{itemize}[leftmargin=*]
-    \item \textbf{\textcolor{fabPrimary}{Investors:}} 40\% - For project investment and purchasing power
-    \item \textbf{\textcolor{fabSecondary}{Team \& Development:}} 20\% - Vesting over 3 years
-    \item \textbf{\textcolor{fabAccent}{Ecosystem Growth:}} 20\% - For platform development and community incentives
-    \item \textbf{\textcolor{fabGrey}{Liquidity Pool:}} 20\% - For FRGE/TAO liquidity
+    \item \textbf{\textcolor{fabPrimary}{\faUsers\ Investors:}} 40\% - For project investment and purchasing power
+    \item \textbf{\textcolor{fabAccent}{\faUser\ Team \& Development:}} 20\% - Vesting over 3 years
+    \item \textbf{\textcolor{fabRed}{\faGlobe\ Ecosystem Growth:}} 20\% - For platform development and community incentives
+    \item \textbf{\textcolor{fabGrey}{\faCircle\ Liquidity Pool:}} 20\% - For FRGE/TAO liquidity
 \end{itemize}
 
-\subsection*{Payment Model}
+\subsection*{\faCreditCard\ Payment Model}
 
-\highlightBox{Core Payment Systems}{
+\highlightBox{\faBitcoin\ Core Payment Systems}{
 \begin{itemize}[leftmargin=*]
-    \item \textbf{\textcolor{fabPrimary}{FRGE Token:}}
+    \item \textbf{\textcolor{fabRed}{\faBitcoin\ FRGE Token:}}
     \begin{itemize}
         \item Used to purchase project data (from the platform or from premium users), marketplace content, and professional services.
         \item Demand is created by AI trainers and marketplace participants.
         \item 20\% of FIAT income from premium subscriptions is used to buy and burn FRGE, creating a deflationary mechanic.
     \end{itemize}
-    \item \textbf{\textcolor{fabSecondary}{TAO (Bittensor's native token):}}
+    \item \textbf{\textcolor{fabAccent}{\faRocket\ TAO (Bittensor's native token):}}
     \begin{itemize}
         \item Used for all AI-related services, including model training and inference.
     \end{itemize}
-    \item \textbf{\textcolor{fabGrey}{FIAT Currency:}}
+    \item \textbf{\textcolor{fabGrey}{\faDollar\ FIAT Currency:}}
     \begin{itemize}
         \item Used for premium subscriptions, AI services, and marketplace purchases.
         \item 20\% of premium subscription income is used to buy and burn FRGE.
@@ -80,37 +80,37 @@ The FRGE token is designed as a utility token that primarily serves as an invest
 \vspace{1em}
 
 \begin{itemize}[leftmargin=*]
-    \item \textbf{\textcolor{fabAccent}{Liquidity:}}
+    \item \textbf{\textcolor{fabPrimary}{\faCircle\ Liquidity:}}
     \begin{itemize}
         \item Liquidity is provided for FRGE/TAO trading pairs to ensure smooth conversion between tokens and to support a healthy marketplace.
     \end{itemize}
-    \item \textbf{\textcolor{fabPrimary}{Marketplace Fees:}}
+    \item \textbf{\textcolor{fabRed}{\faShoppingCart\ Marketplace Fees:}}
     \begin{itemize}
         \item All marketplace transactions incur a 15\% platform fee if they are performed in FIAT.
         \item All marketplace transactions incur a 5\% platform fee if they are performed in FRGE. \textbf{This 5\% fee is used to burn FRGE, creating additional deflationary pressure.}
     \end{itemize}
 \end{itemize}
 
-\subsection*{Token Economics}
+\subsection*{\faLineChart\ Token Economics}
 \begin{itemize}[leftmargin=*]
-    \item \textbf{\textcolor{fabPrimary}{Total Supply:}} 100,000,000 FRGE
-    \item \textbf{\textcolor{fabSecondary}{Raising:}} 20,000 TAO (approximately \$8,770,000 at \$438.50 per TAO)
+    \item \textbf{\textcolor{fabRed}{\faBitcoin\ Total Supply:}} 100,000,000 FRGE
+    \item \textbf{\textcolor{fabAccent}{\faMoney\ Raising:}} 20,000 TAO (approximately \$8,770,000 at \$438.50 per TAO)
 \end{itemize}
 
-\subsection*{Deflationary Mechanism}
+\subsection*{\faFire\ Deflationary Mechanism}
 
-\highlightBox{Deflationary Strategy}{
+\highlightBox{\faArrowDown\ Deflationary Strategy}{
 To ensure long-term value and scarcity, 20\% of all FIAT income from premium subscriptions is used by the platform to purchase FRGE tokens on the open market, which are then permanently burned. Additionally, the 5\% fee collected from all marketplace transactions performed in FRGE is also burned, and all FRGE earned from data sales to AI trainers is burned, further increasing the deflationary effect and buy pressure on FRGE.
 }
 
-\subsection*{Use of Funds}
+\subsection*{\faMoney\ Use of Funds}
 
 \begin{center}
 \begin{tikzpicture}[scale=1.0]
     % Define colors
-    \colorlet{slice1}{fabPrimary}
-    \colorlet{slice2}{fabSecondary}
-    \colorlet{slice3}{fabAccent}
+    \colorlet{slice1}{fabRed}
+    \colorlet{slice2}{fabAccent}
+    \colorlet{slice3}{fabPrimary}
     \colorlet{slice4}{fabGrey}
     
     % Define inner and outer radius
@@ -148,40 +148,40 @@ To ensure long-term value and scarcity, 20\% of all FIAT income from premium sub
     
     % Add icons and descriptions for each slice
     % 20% - Buy & Burn FRGE
-    \node[fabPrimary, align=center, font=\bfseries] at (36:5cm) {Buy \& Burn FRGE};
-    \draw[->, thick, fabPrimary] (36:3.7cm) -- (36:4.4cm);
-    \draw[fill=fabLight, fabPrimary, rounded corners, line width=1pt] (36:6.3cm) circle (0.5cm);
-    \fill[fabPrimary] (36:6.3cm) circle (0.25cm);
+    \node[fabRed, align=center, font=\bfseries] at (36:5cm) {\faFire\ Buy \& Burn FRGE};
+    \draw[->, thick, fabRed] (36:3.7cm) -- (36:4.4cm);
+    \draw[fill=fabLight, fabRed, rounded corners, line width=1pt] (36:6.3cm) circle (0.5cm);
+    \fill[fabRed] (36:6.3cm) circle (0.25cm);
     \node[white, font=\bfseries] at (36:6.3cm) {\$};
     
     % 40% - Platform Development
-    \node[fabSecondary, align=center, font=\bfseries] at (144:5cm) {Platform\\Development};
-    \draw[->, thick, fabSecondary] (144:3.7cm) -- (144:4.4cm);
-    \draw[fill=fabLight, fabSecondary, rounded corners, line width=1pt] (144:6.3cm) circle (0.5cm);
-    \fill[fabSecondary] (144:6.3cm) circle (0.25cm);
-    \node[white, font=\bfseries] at (144:6.3cm) {\faCode};
+    \node[fabAccent, align=center, font=\bfseries] at (144:5cm) {\faCode\ Platform\\Development};
+    \draw[->, thick, fabAccent] (144:3.7cm) -- (144:4.4cm);
+    \draw[fill=fabLight, fabAccent, rounded corners, line width=1pt] (144:6.3cm) circle (0.5cm);
+    \fill[fabAccent] (144:6.3cm) circle (0.25cm);
+    \node[fabPrimary, font=\bfseries] at (144:6.3cm) {\faCode};
     
     % 25% - AI Training
-    \node[fabAccent, align=center, font=\bfseries] at (225:5cm) {AI Model\\Training};
-    \draw[->, thick, fabAccent] (225:3.7cm) -- (225:4.4cm);
-    \draw[fill=fabLight, fabAccent, rounded corners, line width=1pt] (225:6.3cm) circle (0.5cm);
-    \fill[fabAccent] (225:6.3cm) circle (0.25cm);
-    \node[white, font=\bfseries] at (225:6.3cm) {\faCog};
+    \node[fabPrimary, align=center, font=\bfseries] at (225:5cm) {\faCog\ AI Model\\Training};
+    \draw[->, thick, fabPrimary] (225:3.7cm) -- (225:4.4cm);
+    \draw[fill=fabLight, fabPrimary, rounded corners, line width=1pt] (225:6.3cm) circle (0.5cm);
+    \fill[fabPrimary] (225:6.3cm) circle (0.25cm);
+    \node[fabLight, font=\bfseries] at (225:6.3cm) {\faCog};
     
     % 15% - Marketing & Community
-    \node[fabGrey, align=center, font=\bfseries] at (307:5cm) {Marketing \&\\Community};
+    \node[fabGrey, align=center, font=\bfseries] at (307:5cm) {\faBullhorn\ Marketing \&\\Community};
     \draw[->, thick, fabGrey] (307:3.7cm) -- (307:4.4cm);
     \draw[fill=fabLight, fabGrey, rounded corners, line width=1pt] (307:6.3cm) circle (0.5cm);
     \fill[fabGrey] (307:6.3cm) circle (0.25cm);
-    \node[white, font=\bfseries] at (307:6.3cm) {\faUsers};
+    \node[fabLight, font=\bfseries] at (307:6.3cm) {\faUsers};
     
     % Add marketplace fees information
-    \node[align=center, font=\large\bfseries] at (0,-7.5) {Marketplace Fees};
+    \node[align=center, font=\large\bfseries] at (0,-7.5) {\faShoppingCart\ Marketplace Fees};
     
     % FIAT Transactions box (15%)
     \begin{scope}[shift={(-3,-9.5)}]
         \fill[fabLight, draw=fabPrimary, line width=1.5pt, rounded corners] (0,0) rectangle (5,1.5);
-        \node[fabPrimary, align=center, font=\bfseries] at (2.5,1.1) {FIAT Transactions};
+        \node[fabPrimary, align=center, font=\bfseries] at (2.5,1.1) {\faDollar\ FIAT Transactions};
         \node[align=center] at (2.5,0.5) {15\% Platform Fee};
         \draw[->, thick, fabPrimary] (5.2,0.75) -- (6.8,0.75);
         \node[align=center, fabPrimary, font=\bfseries] at (6,-0.3) {Treasury};
@@ -189,38 +189,38 @@ To ensure long-term value and scarcity, 20\% of all FIAT income from premium sub
     
     % FRGE Transactions box (5%)
     \begin{scope}[shift={(3,-9.5)}]
-        \fill[fabLight, draw=fabSecondary, line width=1.5pt, rounded corners] (0,0) rectangle (5,1.5);
-        \node[fabSecondary, align=center, font=\bfseries] at (2.5,1.1) {FRGE Transactions};
+        \fill[fabLight, draw=fabRed, line width=1.5pt, rounded corners] (0,0) rectangle (5,1.5);
+        \node[fabRed, align=center, font=\bfseries] at (2.5,1.1) {\faBitcoin\ FRGE Transactions};
         \node[align=center] at (2.5,0.5) {5\% Platform Fee};
-        \draw[->, thick, fabSecondary] (5.2,0.75) -- (6.8,0.75);
-        \node[align=center, fabSecondary, font=\bfseries] at (6,-0.3) {Burned};
+        \draw[->, thick, fabRed] (5.2,0.75) -- (6.8,0.75);
+        \node[align=center, fabRed, font=\bfseries] at (6,-0.3) {\faFire\ Burned};
     \end{scope}
 \end{tikzpicture}
 \end{center}
 
 % Allocation explanation
-\highlightBox{Fund Allocation Strategy}{
+\highlightBox{\faPieChart\ Fund Allocation Strategy}{
 These allocations are designed to maximize platform growth, user adoption, and long-term sustainability. 20\% of premium subscription FIAT income creates consistent buy pressure on FRGE tokens, while the remaining 80\% is strategically invested in platform development, AI capabilities, and user growth.
 }
 
 % --- Improved Projected Income Section ---
 
-\subsection*{Projected Income}
+\subsection*{\faMoney\ Projected Income}
 
-\highlightBox{Monthly Income \& FRGE Burning Projections}{
+\highlightBox{\faLineChart\ Monthly Income \& FRGE Burning Projections}{
 To illustrate the platform's earning potential and the resulting FRGE buy and burn pressure, we project monthly income and FRGE demand as the user base grows from 1 to 20,000 users. The following assumptions are used:
 
 \begin{itemize}[leftmargin=*]
-    \item 1 in 7 users is a premium user (\textasciitilde14.3\%), 6 in 7 are free users.
-    \item Premium monthly fee: \$150.
-    \item All users spend \$50/month on AI usage (platform takes 15\% fee).
-    \item All users spend \$20/month on the marketplace in FIAT (15\% fee) and \$5/month in FRGE (5\% fee, \textbf{all of which is burned}).
-    \item 20\% of premium FIAT income is used to buy and burn FRGE.
-    \item \textbf{AI trainers purchase data for \$1/month in FRGE per free user} (\textasciitilde6/7 of total users), \textbf{all of which is burned by the platform}.
+    \item \faUsers\ 1 in 7 users is a premium user (\textasciitilde14.3\%), 6 in 7 are free users.
+    \item \faDollar\ Premium monthly fee: \$150.
+    \item \faCog\ All users spend \$50/month on AI usage (platform takes 15\% fee).
+    \item \faShoppingCart\ All users spend \$20/month on the marketplace in FIAT (15\% fee) and \$5/month in FRGE (5\% fee, \textbf{all of which is burned}).
+    \item \faFire\ 20\% of premium FIAT income is used to buy and burn FRGE.
+    \item \textbf{\faDatabase\ AI trainers purchase data for \$1/month in FRGE per free user} (\textasciitilde6/7 of total users), \textbf{all of which is burned by the platform}.
 \end{itemize}
 }
 
-\textbf{\textcolor{fabPrimary}{Formulas:}}
+\textbf{\textcolor{fabPrimary}{\faCalculator\ Formulas:}}
 
 \begin{itemize}[leftmargin=*]
     \item Premium users: $N_{\text{premium}} = \frac{N_{\text{total}}}{7}$
@@ -280,17 +280,17 @@ To illustrate the platform's earning potential and the resulting FRGE buy and bu
     };
     
     % Plot FIAT income from AI usage fees
-    \addplot[color=fabSecondary, thick, mark=square*] coordinates {
+    \addplot[color=fabAccent, thick, mark=square*] coordinates {
         (0,0) (2,0.9) (4,1.8) (6,2.7) (8,3.6) (10,4.5)
     };
     
     % Plot FIAT income from marketplace fees
-    \addplot[color=fabAccent, thick, mark=triangle*] coordinates {
+    \addplot[color=fabPrimary!70, thick, mark=triangle*] coordinates {
         (0,0) (2,0.4) (4,0.8) (6,1.2) (8,1.6) (10,2.0)
     };
     
     % Plot Corrected Total FRGE burning (with correct calculation)
-    \addplot[color=fabSecondary, thick, mark=diamond*, dashed] coordinates {
+    \addplot[color=fabAccent, thick, mark=diamond*, dashed] coordinates {
         (0,0) (2,0.54) (4,1.08) (6,1.62) (8,2.16) (10,2.7)
     };
     

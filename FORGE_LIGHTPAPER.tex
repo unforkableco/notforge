@@ -21,13 +21,13 @@
 \usepackage{titling}
 \usepackage{multicol}
 
-% Modern, bold color scheme
-\definecolor{fabPrimary}{RGB}{32, 85, 183}        % Strong blue
-\definecolor{fabSecondary}{RGB}{240, 100, 60}     % Bold orange/red
-\definecolor{fabAccent}{RGB}{110, 220, 115}       % Vibrant green
+% Simplified color scheme - fewer colors
+\definecolor{fabPrimary}{RGB}{0, 0, 0}           % Black
+\definecolor{fabAccent}{RGB}{212, 175, 55}       % Gold
 \definecolor{fabDark}{RGB}{30, 30, 40}            % Nearly black
 \definecolor{fabLight}{RGB}{245, 245, 250}        % Off-white
 \definecolor{fabGrey}{RGB}{100, 100, 115}         % Medium grey
+\definecolor{fabRed}{RGB}{178, 34, 34}           % Dark red
 
 % Page geometry
 \geometry{
@@ -43,11 +43,11 @@
 % Set up header and footer
 \pagestyle{fancy}
 \fancyhf{}
-\fancyhead[L]{\textcolor{fabPrimary}{\textbf{!FORGE}}}
+\fancyhead[L]{\textcolor{fabPrimary}{\textbf{\faCog\ !FORGE}}}
 \fancyhead[R]{\textcolor{fabGrey}{Lightpaper v1.0}}
 \fancyfoot[C]{\textcolor{fabGrey}{\thepage}}
 \renewcommand{\headrulewidth}{1pt}
-\renewcommand{\headrule}{\hbox to\headwidth{\color{fabPrimary}\leaders\hrule height \headrulewidth\hfill}}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{fabAccent}\leaders\hrule height \headrulewidth\hfill}}
 \renewcommand{\footrulewidth}{0pt}
 
 % Modern font settings
@@ -55,18 +55,18 @@
 \renewcommand{\familydefault}{\sfdefault}
 \allsectionsfont{\sffamily\color{fabPrimary}}
 
-% Title formatting
+% Title formatting with icons
 \titleformat{\section}
     {\color{fabPrimary}\LARGE\bfseries\sffamily}
     {}
     {0em}
-    {}[\titlerule]
+    {\faCog\ }[\titlerule]
 
 \titleformat{\subsection}
-    {\color{fabSecondary}\large\bfseries\sffamily}
+    {\color{fabAccent}\large\bfseries\sffamily}
     {}
     {0em}
-    {}
+    {\faAngleRight\ }
 
 \titlespacing*{\section}{0pt}{2.5ex plus 1ex minus .2ex}{1.5ex plus .2ex}
 \titlespacing*{\subsection}{0pt}{2.25ex plus 1ex minus .2ex}{1.0ex plus .2ex}
@@ -76,31 +76,31 @@
     colorlinks=true,
     linkcolor=fabPrimary,
     filecolor=fabPrimary,
-    urlcolor=fabPrimary,
+    urlcolor=fabRed,
     citecolor=fabPrimary
 }
 
 % Custom commands
 \newcommand{\fabrikatorLogo}{
     \begin{tikzpicture}
-        \fill[fabPrimary] (0,0) rectangle (2.5,2.5);
-        \fill[white] (0.4,0.4) rectangle (2.1,2.1);
-        \fill[fabSecondary] (0.7,0.7) circle (0.4);
-        \node[white, font=\Huge\bfseries] at (1.25,1.25) {!};
+        \fill[black] (0,0) rectangle (2.5,2.5);
+        \fill[fabAccent] (0.4,0.4) rectangle (2.1,2.1);
+        \fill[black] (0.7,0.7) circle (0.4);
+        \node[fabAccent, font=\Huge\bfseries] at (1.25,1.25) {!F};
     \end{tikzpicture}
 }
 
 \newcommand{\fabSectionrule}{
     \vspace{-1ex}
-    \noindent\textcolor{fabPrimary}{\rule{\linewidth}{2pt}}
+    \noindent\textcolor{fabAccent}{\rule{\linewidth}{2pt}}
     \vspace{1ex}
 }
 
 \newcommand{\highlightBox}[2]{
     \begin{tcolorbox}[
         colback=fabLight,
-        colframe=fabPrimary,
-        coltitle=white,
+        colframe=fabRed,
+        coltitle=fabAccent,
         fonttitle=\bfseries\sffamily,
         title=#1,
         sharp corners,
@@ -115,6 +115,17 @@
     #2
     \end{tcolorbox}
 }
+
+% Icon commands for consistent usage - using standard FontAwesome icons
+\newcommand{\marketIcon}{\faLineChart}
+\newcommand{\solutionIcon}{\faLightbulbO}
+\newcommand{\userIcon}{\faUser}
+\newcommand{\marketplaceIcon}{\faShoppingCart}
+\newcommand{\aiIcon}{\faCog}
+\newcommand{\tokenIcon}{\faBitcoin}
+\newcommand{\roadmapIcon}{\faRoad}
+\newcommand{\strategyIcon}{\faBarChart}
+\newcommand{\conclusionIcon}{\faCheckCircle}
 
 \begin{document}
 
@@ -138,8 +149,8 @@
         \vspace{1cm}
         
         \begin{tikzpicture}
-            \fill[fabPrimary, opacity=0.1] (-5,-1.5) rectangle (5,1.5);
-            \node[fabPrimary, font=\LARGE\bfseries] at (0,0) {Through AI and Blockchain};
+            \fill[fabAccent, opacity=0.2] (-5,-1.5) rectangle (5,1.5);
+            \node[fabPrimary, font=\LARGE\bfseries] at (0,0) {\faCog\ Through AI and Blockchain \faCubes};
         \end{tikzpicture}
         
         \vfill
@@ -148,12 +159,12 @@
         \vspace{0.3cm}
         
         \begin{tikzpicture}
-            \fill[fabSecondary] (0,0) circle (1cm);
-            \node[white, font=\bfseries] at (0,0) {v1.0};
+            \fill[fabAccent] (0,0) circle (1cm);
+            \node[fabPrimary, font=\bfseries] at (0,0) {v1.0};
         \end{tikzpicture}
         
         \vspace{1cm}
-        {\Large\textcolor{fabDark}{September 2025}}
+        {\Large\textcolor{fabDark}{May 2025}}
     \end{center}
 \end{titlepage}
 
@@ -203,11 +214,6 @@
 \section{Roadmap}
 \fabSectionrule
 \input{sections/roadmap}
-
-\clearpage
-\section{Market Strategy}
-\fabSectionrule
-\input{sections/market_strategy}
 
 \clearpage
 \section{Conclusion}

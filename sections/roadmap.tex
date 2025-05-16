@@ -1,63 +1,75 @@
 % Visual roadmap with timeline
 \begin{center}
-\begin{tikzpicture}[scale=1.0, transform shape]
-    % Timeline
-    \draw[line width=2.5pt, fabPrimary] (0,0) -- (14,0);
+\begin{tikzpicture}[node distance=1.5cm, scale=0.9, transform shape]
+    % Timeline line
+    \draw[ultra thick, fabPrimary] (0,0) -- (14,0);
     
-    % Nodes for each phase
+    % Timeline nodes
     \filldraw[fabPrimary] (0,0) circle (0.3) node[white, font=\bfseries] {1};
-    \filldraw[fabSecondary] (3.5,0) circle (0.3) node[white, font=\bfseries] {2};
-    \filldraw[fabAccent] (7,0) circle (0.3) node[white, font=\bfseries] {3};
-    \filldraw[fabSecondary] (10.5,0) circle (0.3) node[white, font=\bfseries] {4};
+    \filldraw[fabAccent] (3.5,0) circle (0.3) node[white, font=\bfseries] {2};
+    \filldraw[fabPrimary] (7,0) circle (0.3) node[white, font=\bfseries] {3};
+    \filldraw[fabAccent] (10.5,0) circle (0.3) node[white, font=\bfseries] {4};
     \filldraw[fabPrimary] (14,0) circle (0.3) node[white, font=\bfseries] {5};
     
-    % Phase boxes with titles
-    \node[above, align=center, font=\bfseries, fill=fabLight, text=fabPrimary, rounded corners, minimum width=3cm, minimum height=0.7cm] at (0,0.7) {Q4 2025\\Fundraising};
-    \node[above, align=center, font=\bfseries, fill=fabLight, text=fabSecondary, rounded corners, minimum width=3cm, minimum height=0.7cm] at (3.5,0.7) {Q3 2026\\Core Features};
-    \node[above, align=center, font=\bfseries, fill=fabLight, text=fabAccent, rounded corners, minimum width=3.5cm, minimum height=0.7cm] at (7,0.7) {Q1 2027\\Custom AI Models};
-    \node[above, align=center, font=\bfseries, fill=fabLight, text=fabSecondary, rounded corners, minimum width=3.5cm, minimum height=0.7cm] at (10.5,0.7) {Q2 2027\\Release \& Marketplace};
-    \node[above, align=center, font=\bfseries, fill=fabLight, text=fabPrimary, rounded corners, minimum width=3cm, minimum height=0.7cm] at (14,0.7) {Q3 2027\\Professional Services};
+    % Timeline labels
+    \node[fabPrimary, align=center, font=\bfseries, anchor=south, minimum width=3cm, minimum height=0.7cm] at (0,0.7) {Q4 2025\\Platform Foundation};
+    \node[fabAccent, align=center, font=\bfseries, anchor=south, minimum width=3cm, minimum height=0.7cm] at (3.5,0.7) {Q3 2026\\Core Features};
+    \node[fabPrimary, align=center, font=\bfseries, anchor=south, minimum width=3cm, minimum height=0.7cm] at (7,0.7) {Q4 2026\\Beta Release};
+    \node[fabAccent, align=center, font=\bfseries, anchor=south, minimum width=3cm, minimum height=0.7cm] at (10.5,0.7) {Q2 2027\\Release \& Marketplace};
+    \node[fabPrimary, align=center, font=\bfseries, anchor=south, minimum width=3cm, minimum height=0.7cm] at (14,0.7) {Q4 2027\\Advanced Features};
     
-    % Phase descriptions
-    \node[below, align=left, text width=3cm] at (0, -0.7) {
-        \begin{itemize}[leftmargin=10pt, itemsep=0pt, topsep=0pt]
-            \item Core team assembly
-            \item Architecture design
-            \item Token distribution
-            \item Proof of concept
+    % Phase 1 details
+    \node[anchor=north west, text width=3cm, align=left] at (0,-0.7) {
+        \textbf{\textcolor{fabPrimary}{Phase 1}}
+        \begin{itemize}[leftmargin=1.5em]
+            \item Token launch
+            \item Team formation
+            \item Core architecture design
+            \item Initial UI/UX prototypes
         \end{itemize}
     };
     
-    \node[below, align=left, text width=3cm] at (3.5, -0.7) {
-        \begin{itemize}[leftmargin=10pt, itemsep=0pt, topsep=0pt]
-            \item Alpha version
-            \item Bittensor integration
-            \item Data collection
+    % Phase 2 details
+    \node[anchor=north west, text width=3cm, align=left] at (3.5,-0.7) {
+        \textbf{\textcolor{fabAccent}{Phase 2}}
+        \begin{itemize}[leftmargin=1.5em]
+            \item Component database
+            \item Basic AI assistant
+            \item Design tools integration
+            \item Early testing
+        \end{itemize}
+    };
+    
+    % Phase 3 details
+    \node[anchor=north west, text width=3cm, align=left] at (7,-0.7) {
+        \textbf{\textcolor{fabPrimary}{Phase 3}}
+        \begin{itemize}[leftmargin=1.5em]
+            \item Advanced AI assistant
+            \item Code generation
+            \item 3D model optimization
+            \item Beta testing program
+        \end{itemize}
+    };
+    
+    % Phase 4 details
+    \node[anchor=north west, text width=3cm, align=left] at (10.5,-0.7) {
+        \textbf{\textcolor{fabAccent}{Phase 4}}
+        \begin{itemize}[leftmargin=1.5em]
+            \item Full platform launch
+            \item Marketplace opening
+            \item Professional services
             \item Marketing campaign
         \end{itemize}
     };
     
-    \node[below, align=left, text width=3.5cm] at (7, -0.7) {
-        \begin{itemize}[leftmargin=10pt, itemsep=0pt, topsep=0pt]
-            \item AI platform integration
-            \item Marketplace expansion
-            \item Custom model training
-        \end{itemize}
-    };
-    
-    \node[below, align=left, text width=3.5cm] at (10.5, -0.7) {
-        \begin{itemize}[leftmargin=10pt, itemsep=0pt, topsep=0pt]
-            \item Official platform release
-            \item Marketplace launch
-            \item AI model selection
-        \end{itemize}
-    };
-    
-    \node[below, align=left, text width=3cm] at (14, -0.7) {
-        \begin{itemize}[leftmargin=10pt, itemsep=0pt, topsep=0pt]
-            \item Bounties system
-            \item Assembly services
-            \item 3D printing services
+    % Phase 5 details
+    \node[anchor=north west, text width=3cm, align=left] at (14,-0.7) {
+        \textbf{\textcolor{fabPrimary}{Phase 5}}
+        \begin{itemize}[leftmargin=1.5em]
+            \item Advanced marketplace
+            \item Enhanced AI training
+            \item Mobile app release
+            \item Global manufacturing
         \end{itemize}
     };
 \end{tikzpicture}

@@ -1,24 +1,79 @@
-\subsection{Intuitive Interface}
+% User Experience Journey Visualization
+\begin{center}
+\begin{tikzpicture}[scale=0.9, transform shape]
+    % Background
+    \fill[fabLight, rounded corners=10pt] (-7,-5) rectangle (7,5);
+    
+    % Title
+    \node[fabRed, font=\large\bfseries] at (0,4.3) {\faUsers\ User Journey};
+    
+    % Central user icon
+    \fill[fabAccent!30, rounded corners=10pt] (-1.5,-1.5) rectangle (1.5,1.5);
+    \node[fabPrimary, font=\Huge] at (0,0) {\faUser};
+    
+    % Four quadrants around the user
+    % Top: Idea & Design
+    \fill[fabAccent!20, rounded corners=5pt] (-6,1.8) rectangle (-2,3.8);
+    \node[fabRed, font=\bfseries] at (-4,3.3) {\faLightbulbO\ Idea \& Design};
+    \node[align=center, font=\small] at (-4,2.4) {Natural language input\\Visual design interface\\Real-time feedback};
+    
+    % Right: AI Assembly
+    \fill[fabAccent!20, rounded corners=5pt] (2,1.8) rectangle (6,3.8);
+    \node[fabRed, font=\bfseries] at (4,3.3) {\faCog\ AI Assembly};
+    \node[align=center, font=\small] at (4,2.4) {Component selection\\Compatibility checking\\Automated wiring diagrams};
+    
+    % Bottom: Fabrication
+    \fill[fabAccent!20, rounded corners=5pt] (-6,-3.8) rectangle (-2,-1.8);
+    \node[fabRed, font=\bfseries] at (-4,-2.3) {\faIndustry\ Fabrication};
+    \node[align=center, font=\small] at (-4,-3.2) {3D printing instructions\\Assembly guidance\\Local maker integration};
+    
+    % Left: Community
+    \fill[fabAccent!20, rounded corners=5pt] (2,-3.8) rectangle (6,-1.8);
+    \node[fabRed, font=\bfseries] at (4,-2.3) {\faUsers\ Community};
+    \node[align=center, font=\small] at (4,-3.2) {Project sharing\\Expert consultation\\Knowledge collaboration};
+    
+    % Connection arrows
+    \draw[->, thick, fabRed] (-2,2.8) -- (-1.5,1.5);
+    \draw[->, thick, fabRed] (1.5,1.5) -- (2,2.8);
+    \draw[->, thick, fabRed] (-2,-2.8) -- (-1.5,-1.5);
+    \draw[->, thick, fabRed] (1.5,-1.5) -- (2,-2.8);
+    
+    % Circular flow arrows
+    \draw[->, thick, fabAccent, rounded corners] (-4,1.8) -- (-4,0) -- (-6,0) -- (-6,2.8) -- (-5.5,3.3);
+    \draw[->, thick, fabAccent, rounded corners] (4,1.8) -- (4,0) -- (6,0) -- (6,2.8) -- (5.5,3.3);
+    \draw[->, thick, fabAccent, rounded corners] (-4,-1.8) -- (-4,0) -- (-6,0) -- (-6,-2.8) -- (-5.5,-3.3);
+    \draw[->, thick, fabAccent, rounded corners] (4,-1.8) -- (4,0) -- (6,0) -- (6,-2.8) -- (5.5,-3.3);
+\end{tikzpicture}
+\end{center}
+
+\vspace{0.5cm}
+
+\highlightBox{\faLightbulbO\ The !Forge Experience}{
+!Forge delivers an end-to-end user experience that transforms complex hardware development into an intuitive journey. Users move seamlessly from concept to creation with AI assistance at every step, enabling anyone to build custom smart devices regardless of technical expertise.
+}
+
+\subsection*{\faDesktop\ Intuitive Interface}
 \begin{itemize}[leftmargin=*]
-    \item Natural language input for device specifications
-    \item Visual design interface with real-time feedback
-    \item Step-by-step guided assembly process
-    \item Interactive 3D model viewer
+    \item \textbf{\textcolor{fabRed}{Natural Language Input:}} Describe your desired device in plain English
+    \item \textbf{\textcolor{fabRed}{Visual Design Interface:}} Drag-and-drop components with real-time feedback
+    \item \textbf{\textcolor{fabRed}{Step-by-Step Guidance:}} Interactive guided assembly process
+    \item \textbf{\textcolor{fabRed}{Interactive 3D Modeling:}} View and customize your design from all angles
+    \item \textbf{\textcolor{fabRed}{Cross-Platform Access:}} Web interfaces for seamless design experience
 \end{itemize}
 
-\subsection{AI Assistance}
+\subsection*{\faCog\ AI Assistance}
 \begin{itemize}[leftmargin=*]
-    \item Smart suggestions for component selection
-    \item Automated compatibility checking
-    \item Automated wiring
-    \item Automated code generation
-    \item Real-time error detection and correction
-    \item Context-aware help system
+    \item \textbf{\textcolor{fabRed}{Intelligent Component Selection:}} AI suggests optimal components based on your requirements
+    \item \textbf{\textcolor{fabRed}{Compatibility Verification:}} Automated checks ensure all components work together
+    \item \textbf{\textcolor{fabRed}{Circuit Design:}} AI generates optimal wiring and circuit layouts
+    \item \textbf{\textcolor{fabRed}{Code Generation:}} Automatic firmware and software generation based on your design
+    \item \textbf{\textcolor{fabRed}{Error Detection:}} Real-time identification and correction of design flaws
+    \item \textbf{\textcolor{fabRed}{Performance Optimization:}} AI suggests improvements for power, cost, and size
 \end{itemize}
 
-\subsection{Community Support}
+\subsection*{\faUsers\ Community Integration}
 \begin{itemize}[leftmargin=*]
-    \item Expert consultation marketplace
-    \item Project sharing and remixing
-    \item Local maker space integration
+    \item \textbf{\textcolor{fabRed}{Project Marketplace:}} Share, sell, or remix existing designs
+    \item \textbf{\textcolor{fabRed}{Expert Connections:}} Connect with specialists for consultation
+    \item \textbf{\textcolor{fabRed}{Local Maker Spaces:}} Find nearby facilities for production
 \end{itemize} 
