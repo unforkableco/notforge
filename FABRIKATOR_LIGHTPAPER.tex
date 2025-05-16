@@ -1,0 +1,123 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{fontawesome}
+\usepackage{tikz}
+\usepackage{float}
+\usetikzlibrary{positioning}
+
+% Custom colors
+\definecolor{fabrikatorBlue}{RGB}{0, 90, 160}
+\definecolor{fabrikatorLightBlue}{RGB}{100, 150, 200}
+\definecolor{fabrikatorGray}{RGB}{50, 50, 50}
+
+% Page geometry
+\geometry{
+    top=2.5cm,
+    bottom=2.5cm,
+    left=2.5cm,
+    right=2.5cm,
+    includehead,
+    includefoot
+}
+
+% Custom commands
+\newcommand{\fabrikatorLogo}{
+    \begin{tikzpicture}
+        \draw[fill=fabrikatorBlue, rounded corners=2pt] (0,0) rectangle (2,2);
+        \draw[fill=white] (0.5,0.5) rectangle (1.5,1.5);
+        \draw[fill=fabrikatorLightBlue] (0.7,0.7) circle (0.3);
+        \node[white] at (1,1) {\Large F};
+    \end{tikzpicture}
+}
+\newcommand{\sectionrule}{\noindent\rule{\linewidth}{0.8pt}}
+
+\begin{document}
+
+% Title formatting
+\titleformat{\section}
+    {\color{fabrikatorBlue}\Large\bfseries}
+    {}
+    {0em}
+    {}
+
+\titleformat{\subsection}
+    {\color{fabrikatorBlue}\large\bfseries}
+    {}
+    {0em}
+    {}
+
+% Title page
+\begin{titlepage}
+    \pagenumbering{gobble}
+    \centering
+    \vspace*{2cm}
+    {\fabrikatorLogo}
+    \vspace{2cm}
+    
+    {\Huge\bfseries\color{fabrikatorBlue} Fabrikator}\\[1cm]
+    {\Large\color{fabrikatorGray} Democratizing Smart Device Creation}\\[0.5cm]
+    {\large Through AI and Blockchain}\\[2cm]
+    
+    \begin{tikzpicture}
+        \draw[fill=fabrikatorLightBlue, opacity=0.2] (-4,-1) rectangle (4,1);
+        \node at (0,0) {Lightpaper v1.0};
+    \end{tikzpicture}
+    
+    \vfill
+    {\large September 2025}
+\end{titlepage}
+
+\pagenumbering{arabic}
+
+% Table of contents
+\tableofcontents
+\newpage
+
+% Main content
+\section{Executive Summary}
+\sectionrule
+\input{sections/executive_summary}
+
+\section{Vision \& Market Opportunity}
+\sectionrule
+\input{sections/vision_market}
+
+\section{The Fabrikator Solution}
+\sectionrule
+\input{sections/solution}
+
+\section{User Experience}
+\sectionrule
+\input{sections/user_experience}
+
+\section{Marketplace \& Professional Services}
+\sectionrule
+\input{sections/marketplace}
+
+\section{AI Training \& Improvement}
+\sectionrule
+\input{sections/ai_training}
+
+\section{Tokenomics}
+\sectionrule
+\input{sections/tokenomics}
+
+\section{Roadmap}
+\sectionrule
+\input{sections/roadmap}
+
+\section{Market Strategy}
+\sectionrule
+\input{sections/market_strategy}
+
+\section{Conclusion}
+\sectionrule
+\input{sections/conclusion}
+
+\end{document} 
