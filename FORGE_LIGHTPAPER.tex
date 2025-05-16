@@ -27,7 +27,7 @@
 \definecolor{fabDark}{RGB}{30, 30, 40}            % Nearly black
 \definecolor{fabLight}{RGB}{245, 245, 250}        % Off-white
 \definecolor{fabGrey}{RGB}{100, 100, 115}         % Medium grey
-\definecolor{fabRed}{RGB}{178, 34, 34}           % Dark red
+\definecolor{fabRed}{RGB}{25, 80, 170}           % Blue (previously red)
 
 % Page geometry
 \geometry{
@@ -83,10 +83,16 @@
 % Custom commands
 \newcommand{\fabrikatorLogo}{
     \begin{tikzpicture}
+        % Outer black square
         \fill[black] (0,0) rectangle (2.5,2.5);
+        % Inner gold square
         \fill[fabAccent] (0.4,0.4) rectangle (2.1,2.1);
-        \fill[black] (0.7,0.7) circle (0.4);
-        \node[fabAccent, font=\Huge\bfseries] at (1.25,1.25) {!F};
+        % Add a small diagonal accent element in blue
+        \fill[fabRed] (0.5,0.5) -- (1.0,0.5) -- (0.5,1.0) -- cycle;
+        % Add outline for the text (white outline helps text stand out)
+        \node[text=white, font=\Huge\bfseries, scale=1.5] at (1.25,1.25) {!F};
+        % Black text slightly offset for a shadow effect
+        \node[fabPrimary, font=\Huge\bfseries, scale=1.5] at (1.25,1.25) {!F};
     \end{tikzpicture}
 }
 
