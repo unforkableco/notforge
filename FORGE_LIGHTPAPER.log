@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2025.5.16)  16 MAY 2025 23:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2025.5.16)  17 MAY 2025 00:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1058,22 +1058,21 @@ l.189 \clearpage
 
 ] (./sections/vision_market.tex
 LaTeX Font Info:    Font shape `T1/pag/b/n' in size <12> not available
-(Font)              Font shape `T1/pag/db/n' tried instead on input line 1.
-) [2
-
-]
-(./sections/solution.tex) [3
-
-] (./sections/user_experience.tex
+(Font)              Font shape `T1/pag/db/n' tried instead on input line 9.
 LaTeX Font Info:    Trying to load font information for U+fontawesomethree on i
-nput line 12.
+nput line 56.
 
 (/usr/share/texlive/texmf-dist/tex/latex/fontawesome/ufontawesomethree.fd
 File: ufontawesomethree.fd 2016/05/22 Font definitions for U/fontawesomethree.
-)
-[4
+))
+[2
 
-]) [5] (./sections/marketplace.tex) [6
+] (./sections/solution.tex) [3
+
+] (./sections/user_experience.tex [4
+
+]) [5]
+(./sections/marketplace.tex) [6
 
 ] (./sections/ai_training.tex) [7
 
@@ -1099,7 +1098,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 229.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 229.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 229.
 Package rerunfilecheck Info: File `FORGE_LIGHTPAPER.out' has not changed.
-(rerunfilecheck)             Checksum: 0CBA0EEDFE70F9A25A7AADE1D5029CC9;1389.
+(rerunfilecheck)             Checksum: AE173F66AD76879D00585152974C86D0;1187.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -1107,11 +1106,11 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 229.
  ) 
 Here is how much of TeX's memory you used:
- 33621 strings out of 483107
- 780680 string characters out of 5964630
- 1174905 words of memory out of 5000000
- 47904 multiletter control sequences out of 15000+600000
- 591065 words of font info for 131 fonts, out of 8000000 for 9000
+ 33626 strings out of 483107
+ 780749 string characters out of 5964630
+ 1174902 words of memory out of 5000000
+ 47906 multiletter control sequences out of 15000+600000
+ 591685 words of font info for 135 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  80i,17n,127p,953b,2372s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomethree.e
@@ -1126,10 +1125,10 @@ e1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/avantga
 r/uagd8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/avantgar/uagk8a.pfb
 >
-Output written on FORGE_LIGHTPAPER.pdf (17 pages, 130548 bytes).
+Output written on FORGE_LIGHTPAPER.pdf (17 pages, 133584 bytes).
 PDF statistics:
- 258 PDF objects out of 1000 (max. 8388607)
- 228 compressed objects within 3 object streams
- 51 named destinations out of 1000 (max. 500000)
- 24253 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 242 PDF objects out of 1000 (max. 8388607)
+ 212 compressed objects within 3 object streams
+ 48 named destinations out of 1000 (max. 500000)
+ 24229 words of extra memory for PDF output out of 24883 (max. 10000000)
 
