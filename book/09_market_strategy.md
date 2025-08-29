@@ -48,22 +48,22 @@
 
   - Technology providers
 
-**<span style="color: fabPrimary"> Value Proposition</span>**
+** Value Proposition**
 
-  - **<span style="color: fabPrimary">Democratized Creation:</span>** Make smart hardware accessible to everyone
+  - **Democratized Creation:** Make smart hardware accessible to everyone
 
-  - **<span style="color: fabPrimary">Reduced Complexity:</span>** Automate technical decisions
+  - **Reduced Complexity:** Automate technical decisions
 
-  - **<span style="color: fabPrimary">Time Efficiency:</span>** Dramatically reduce development time
+  - **Time Efficiency:** Dramatically reduce development time
 
-  - **<span style="color: fabPrimary">Cost Reduction:</span>** Lower barriers to entry
+  - **Cost Reduction:** Lower barriers to entry
 
-**<span style="color: fabPrimary"> Initial Focus Areas</span>**
+** Initial Focus Areas**
 
-  - **<span style="color: fabPrimary">IoT Devices:</span>** Smart home, agriculture, monitoring
+  - **IoT Devices:** Smart home, agriculture, monitoring
 
-  - **<span style="color: fabPrimary">Robotics:</span>** Small-scale, educational, and hobby
+  - **Robotics:** Small-scale, educational, and hobby
 
-  - **<span style="color: fabPrimary">Wearables:</span>** Custom health and fitness trackers
+  - **Wearables:** Custom health and fitness trackers
 
-  - **<span style="color: fabPrimary">Drones:</span>** Specialized and custom applications
+  - **Drones:** Specialized and custom applications

@@ -1,6 +1,6 @@
 ## AI-Powered Development Platform
 
-\!Forge integrates advanced AI systems to transform hardware creation:
+!Forge integrates advanced AI systems to transform hardware creation:
 
   - Natural language to technical specification conversion
 

@@ -14,9 +14,9 @@ The smart device market is projected to reach **$1.3 trillion by 2026**, with a 
 |   2024   |      $0.9T      |
 |   2026   |      $1.3T      |
 
-<span style="color: fabAccent"></span> **Growth Rate:** 11.2% CAGR
+ **Growth Rate:** 11.2% CAGR
 
-<span>2</span>
+2
 
   - **High technical barriers** requiring specialized expertise in electronics, programming, and design
 
@@ -36,16 +36,16 @@ The market shows a clear opportunity for a unified platform that:
 
   - **Integrates AI** assisted design and development
 
-<!-- end list -->
+
 
   - **Streamlines the journey** from concept to manufacturing
 
   - **Creates an ecosystem** connecting all stakeholders
 
-<div style="color: fabPrimary">
+
 
 -----
 
-</div>
+
 
 **Platform Benefit:** Reduced costs through shared infrastructure

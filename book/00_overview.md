@@ -1,38 +1,38 @@
-<div style="color: fabPrimary">
+
 
 -----
 
-  
-<span>**\!FORGE**</span>  
-<span>Democratizing Smart Device Creation</span>  
+
+**\!FORGE**
+Democratizing Smart Device Creation
 
 -----
 
-  
 
-</div>
 
-<span>**LIGHTPAPER**</span>
+
+
+**LIGHTPAPER**
 
 # Executive Summary
 
-<div style="color: fabAccent">
+
 
 -----
 
-</div>
 
-<span style="color: fabPrimary">**Building the Future of Smart Device Creation**</span>
 
-\!Forge democratizes smart device creation through AI and blockchain technology. Our platform transforms ideas into physical reality without requiring engineering expertise, opening the $500B+ smart device market to everyone.
+**Building the Future of Smart Device Creation**
 
-<span>2</span> <span style="color: fabPrimary">**Our Mission**</span>  
+!Forge democratizes smart device creation through AI and blockchain technology. Our platform transforms ideas into physical reality without requiring engineering expertise, opening the $500B+ smart device market to everyone.
+
+2 **Our Mission**
 To eliminate barriers in hardware creation by providing an intuitive, AI-guided process that anyone can use to build custom smart devices—from drones to automated systems.
 
-<span style="color: fabPrimary">**Market Opportunity**</span>  
+**Market Opportunity**
 $500B+ smart device market (2025) with 15-30% growth across IoT sectors. Rising demand for customized devices and growth of maker movement.
 
-<span>2</span> <span style="color: fabRed">**Key Platform Features**</span>
+2 **Key Platform Features**
 
   - AI-guided design process
 
@@ -42,7 +42,7 @@ $500B+ smart device market (2025) with 15-30% growth across IoT sectors. Rising 
 
   - Manufacturing network
 
-<span style="color: fabRed">**Competitive Edge**</span>
+**Competitive Edge**
 
   - End-to-End Solution: Concept to finished device
 
@@ -52,19 +52,19 @@ $500B+ smart device market (2025) with 15-30% growth across IoT sectors. Rising 
 
   - Network Effects: Value grows with ecosystem
 
-<span style="color: fabAccent">**FRGE Token Overview**</span>
+**FRGE Token Overview**
 
 Our platform offers a unique two-tier system with 100M total supply of FRGE tokens. The token enables project investment, marketplace purchases, and creates a sustainable ecosystem through deflationary mechanics. See Tokenomics section for complete details.
 
-The \!Forge platform uniquely combines AI, blockchain, and manufacturing to democratize creation capabilities previously available only to large companies and experienced engineers, while establishing a sustainable ecosystem for all participants.
+The !Forge platform uniquely combines AI, blockchain, and manufacturing to democratize creation capabilities previously available only to large companies and experienced engineers, while establishing a sustainable ecosystem for all participants.
 
 # Market Opportunity
 
-<div style="color: fabAccent">
+
 
 -----
 
-</div>
+
 
 The smart device market is projected to reach **$1.3 trillion by 2026**, with a CAGR of 11.2% driven by:
 
@@ -82,9 +82,9 @@ The smart device market is projected to reach **$1.3 trillion by 2026**, with a 
 |   2024   |      $0.9T      |
 |   2026   |      $1.3T      |
 
-<span style="color: fabAccent"></span> **Growth Rate:** 11.2% CAGR
+ **Growth Rate:** 11.2% CAGR
 
-<span>2</span>
+2
 
   - **High technical barriers** requiring specialized expertise in electronics, programming, and design
 
@@ -104,31 +104,31 @@ The market shows a clear opportunity for a unified platform that:
 
   - **Integrates AI** assisted design and development
 
-<!-- end list -->
+
 
   - **Streamlines the journey** from concept to manufacturing
 
   - **Creates an ecosystem** connecting all stakeholders
 
-<div style="color: fabPrimary">
+
 
 -----
 
-</div>
+
 
 **Platform Benefit:** Reduced costs through shared infrastructure
 
-# The \!Forge Solution
+# The !Forge Solution
 
-<div style="color: fabAccent">
+
 
 -----
 
-</div>
+
 
 ## AI-Powered Development Platform
 
-\!Forge integrates advanced AI systems to transform hardware creation:
+!Forge integrates advanced AI systems to transform hardware creation:
 
   - Natural language to technical specification conversion
 
@@ -158,55 +158,55 @@ Our decentralized foundation ensures:
 
 # User Experience
 
-<div style="color: fabAccent">
+
 
 -----
 
-</div>
 
-\!Forge delivers an end-to-end user experience that transforms complex hardware development into an intuitive journey. Users move seamlessly from concept to creation with AI assistance at every step, enabling anyone to build custom smart devices regardless of technical expertise.
 
-##  Intuitive Interface
+!Forge delivers an end-to-end user experience that transforms complex hardware development into an intuitive journey. Users move seamlessly from concept to creation with AI assistance at every step, enabling anyone to build custom smart devices regardless of technical expertise.
 
-  - **<span style="color: fabRed">Natural Language Input:</span>** Describe your desired device in plain English
+##  Intuitive Interface
 
-  - **<span style="color: fabRed">Visual Design Interface:</span>** Drag-and-drop components with real-time feedback
+  - **Natural Language Input:** Describe your desired device in plain English
 
-  - **<span style="color: fabRed">Step-by-Step Guidance:</span>** Interactive guided assembly process
+  - **Visual Design Interface:** Drag-and-drop components with real-time feedback
 
-  - **<span style="color: fabRed">Interactive 3D Modeling:</span>** View and customize your design from all angles
+  - **Step-by-Step Guidance:** Interactive guided assembly process
 
-  - **<span style="color: fabRed">Cross-Platform Access:</span>** Web interfaces for seamless design experience
+  - **Interactive 3D Modeling:** View and customize your design from all angles
 
-##  AI Assistance
+  - **Cross-Platform Access:** Web interfaces for seamless design experience
 
-  - **<span style="color: fabRed">Intelligent Component Selection:</span>** AI suggests optimal components based on your requirements
+##  AI Assistance
 
-  - **<span style="color: fabRed">Compatibility Verification:</span>** Automated checks ensure all components work together
+  - **Intelligent Component Selection:** AI suggests optimal components based on your requirements
 
-  - **<span style="color: fabRed">Circuit Design:</span>** AI generates optimal wiring and circuit layouts
+  - **Compatibility Verification:** Automated checks ensure all components work together
 
-  - **<span style="color: fabRed">Code Generation:</span>** Automatic firmware and software generation based on your design
+  - **Circuit Design:** AI generates optimal wiring and circuit layouts
 
-  - **<span style="color: fabRed">Error Detection:</span>** Real-time identification and correction of design flaws
+  - **Code Generation:** Automatic firmware and software generation based on your design
 
-  - **<span style="color: fabRed">Performance Optimization:</span>** AI suggests improvements for power, cost, and size
+  - **Error Detection:** Real-time identification and correction of design flaws
 
-##  Community Integration
+  - **Performance Optimization:** AI suggests improvements for power, cost, and size
 
-  - **<span style="color: fabRed">Project Marketplace:</span>** Share, sell, or remix existing designs
+##  Community Integration
 
-  - **<span style="color: fabRed">Expert Connections:</span>** Connect with specialists for consultation
+  - **Project Marketplace:** Share, sell, or remix existing designs
 
-  - **<span style="color: fabRed">Local Maker Spaces:</span>** Find nearby facilities for production
+  - **Expert Connections:** Connect with specialists for consultation
+
+  - **Local Maker Spaces:** Find nearby facilities for production
 
 # Marketplace
 
-<div style="color: fabAccent">
+
 
 -----
 
-</div>
+
 
 ## AI Model Marketplace
 
@@ -248,11 +248,11 @@ Our decentralized foundation ensures:
 
 # AI Training & Improvement
 
-<div style="color: fabAccent">
+
 
 -----
 
-</div>
+
 
 ## Training Data Sources
 
@@ -288,81 +288,81 @@ Our decentralized foundation ensures:
 
 # Tokenomics
 
-<div style="color: fabAccent">
+
 
 -----
 
-</div>
 
-The FRGE token is designed as a utility token that primarily serves as an investment vehicle and purchasing power for \!Forge projects. Unlike traditional utility tokens, FRGE is not used for platform fees, governance, or AI service payments.
 
-##  User Tiers and Data Monetization
+The FRGE token is designed as a utility token that primarily serves as an investment vehicle and purchasing power for !Forge projects. Unlike traditional utility tokens, FRGE is not used for platform fees, governance, or AI service payments.
 
-\!Forge offers two user tiers: Free and Premium.
+##  User Tiers and Data Monetization
 
-  - **<span style="color: fabPrimary"> Free Users:</span>** Do not pay platform fees. Their project data may be sold by the platform (for FRGE tokens) to AI trainers, creating ongoing demand for FRGE. Free users pay for AI services in FIAT or TAO and can purchase marketplace content with FIAT or FRGE.
+!Forge offers two user tiers: Free and Premium.
 
-  - **<span style="color: fabAccent"> Premium Users:</span>** Pay a monthly subscription fee in FIAT for enhanced privacy; their project data is neither sold nor used for AI training. Premium users can also purchase marketplace content with FIAT or FRGE. Premium users can decide to sell their projects data to earn FRGE tokens when their data is used.
+  - ** Free Users:** Do not pay platform fees. Their project data may be sold by the platform (for FRGE tokens) to AI trainers, creating ongoing demand for FRGE. Free users pay for AI services in FIAT or TAO and can purchase marketplace content with FIAT or FRGE.
 
-##  Token Utility
+  - ** Premium Users:** Pay a monthly subscription fee in FIAT for enhanced privacy; their project data is neither sold nor used for AI training. Premium users can also purchase marketplace content with FIAT or FRGE. Premium users can decide to sell their projects data to earn FRGE tokens when their data is used.
 
-  - **<span style="color: fabRed"> Project Investment & Purchasing Power:</span>** FRGE tokens provide investors with purchasing power for projects created on the platform, enabling them to acquire projects that can be used to train their AI models
+##  Token Utility
 
-  - **<span style="color: fabRed"> Project Monetization:</span>** Premium users can sell their completed projects for FRGE tokens
+  - ** Project Investment & Purchasing Power:** FRGE tokens provide investors with purchasing power for projects created on the platform, enabling them to acquire projects that can be used to train their AI models
 
-  - **<span style="color: fabRed"> Bounty Payments:</span>** FRGE tokens can be used to pay for bounties on the platform
+  - ** Project Monetization:** Premium users can sell their completed projects for FRGE tokens
 
-  - **<span style="color: fabRed"> Professional Services:</span>** Assembly and 3D printing professionals can accept FRGE as payment for their services
+  - ** Bounty Payments:** FRGE tokens can be used to pay for bounties on the platform
 
-  - **<span style="color: fabRed"> Data Purchases:</span>** AI trainers and providers can purchase project data (from the platform or from premium users) using FRGE tokens, creating ongoing demand. **All FRGE earned from data sales is burned by the platform.**
+  - ** Professional Services:** Assembly and 3D printing professionals can accept FRGE as payment for their services
 
-##  Token Distribution
+  - ** Data Purchases:** AI trainers and providers can purchase project data (from the platform or from premium users) using FRGE tokens, creating ongoing demand. **All FRGE earned from data sales is burned by the platform.**
 
-  - **<span style="color: fabPrimary"> Investors:</span>** 40% - For project investment and purchasing power
+##  Token Distribution
 
-  - **<span style="color: fabAccent"> Team & Development:</span>** 20% - Vesting over 3 years
+  - ** Investors:** 40% - For project investment and purchasing power
 
-  - **<span style="color: fabRed"> Ecosystem Growth:</span>** 20% - For platform development and community incentives
+  - ** Team & Development:** 20% - Vesting over 3 years
 
-  - **<span style="color: fabGrey"> Liquidity Pool:</span>** 20% - For FRGE/TAO liquidity
+  - ** Ecosystem Growth:** 20% - For platform development and community incentives
 
-##  Payment Model
+  - ** Liquidity Pool:** 20% - For FRGE/TAO liquidity
 
-  - **<span style="color: fabRed"> FRGE Token:</span>**
-    
+##  Payment Model
+
+  - ** FRGE Token:**
+
       - Used to purchase project data, marketplace content, and professional services
-    
+
       - Demand is created by AI trainers and marketplace participants
 
-  - **<span style="color: fabAccent"> TAO (Bittensor’s native token):</span>**
-    
+  - ** TAO (Bittensor’s native token):**
+
       - Used for all AI-related services, including model training and inference
 
-  - **<span style="color: fabGrey"> FIAT Currency:</span>**
-    
+  - ** FIAT Currency:**
+
       - Used for premium subscriptions, AI services, and marketplace purchases
 
-<!-- end list -->
 
-  - **<span style="color: fabPrimary"> Liquidity:</span>**
-    
+
+  - ** Liquidity:**
+
       - Liquidity is provided for FRGE/TAO trading pairs to ensure smooth conversion between tokens and to support a healthy marketplace.
 
-  - **<span style="color: fabRed"> Marketplace Fees:</span>**
-    
+  - ** Marketplace Fees:**
+
       - FIAT transactions: 15% platform fee
-    
+
       - FRGE transactions: 5% platform fee (all burned)
 
-##  Token Economics
+##  Token Economics
 
-  - **<span style="color: fabRed"> Total Supply:</span>** 100,000,000 FRGE
+  - ** Total Supply:** 100,000,000 FRGE
 
-  - **<span style="color: fabAccent"> Raising:</span>** 20,000 TAO (approximately $8,770,000 at $438.50 per TAO)
+  - ** Raising:** 20,000 TAO (approximately $8,770,000 at $438.50 per TAO)
 
-##  Deflationary Mechanism
+##  Deflationary Mechanism
 
-To ensure long-term value and scarcity, \!Forge incorporates multiple deflationary mechanisms:
+To ensure long-term value and scarcity, !Forge incorporates multiple deflationary mechanisms:
 
   - 20% of premium subscription FIAT revenue is used to purchase and burn FRGE tokens
 
@@ -372,47 +372,47 @@ To ensure long-term value and scarcity, \!Forge incorporates multiple deflationa
 
 This multi-layered approach creates continuous buy pressure and deflationary effects on the FRGE token supply.
 
-##  Use of Funds
+##  Use of Funds
 
 These allocations are designed to maximize platform growth, user adoption, and long-term sustainability. 20% of premium subscription FIAT income creates consistent buy pressure on FRGE tokens, while the remaining 80% is strategically invested in platform development, AI capabilities, and user growth.
 
-##  Projected Income
+##  Projected Income
 
 To illustrate the platform’s earning potential and the resulting FRGE buy and burn pressure, we project monthly income and FRGE demand as the user base grows from 1 to 20,000 users. The following assumptions are used:
 
-  -  1 in 7 users is a premium user (\~14.3%), 6 in 7 are free users.
+  -  1 in 7 users is a premium user (\~14.3%), 6 in 7 are free users.
 
-  -  Premium monthly fee: $150.
+  -  Premium monthly fee: $150.
 
-  -  All users spend $50/month on AI usage (platform takes 15% fee).
+  -  All users spend $50/month on AI usage (platform takes 15% fee).
 
-  -  All users spend $20/month on the marketplace in FIAT (15% fee) and $5/month in FRGE (5% fee, **all of which is burned**).
+  -  All users spend $20/month on the marketplace in FIAT (15% fee) and $5/month in FRGE (5% fee, **all of which is burned**).
 
-  -  20% of premium FIAT income is used to buy and burn FRGE.
+  -  20% of premium FIAT income is used to buy and burn FRGE.
 
-  - ** AI trainers purchase data for $1/month in FRGE per free user** (\~6/7 of total users), **all of which is burned by the platform**.
+  - ** AI trainers purchase data for $1/month in FRGE per free user** (\~6/7 of total users), **all of which is burned by the platform**.
 
-**<span style="color: fabPrimary"> Formulas:</span>**
+** Formulas:**
 
-  - Premium users: \(N_{\text{premium}} = \frac{N_{\text{total}}}{7}\)
+  - Premium users: `N_{\text{premium}} = \frac{N_{\text{total}}}{7}`
 
-  - Free users: \(N_{\text{free}} = N_{\text{total}} \times \frac{6}{7}\)
+  - Free users: `N_{\text{free}} = N_{\text{total}} \times \frac{6}{7}`
 
-  - FIAT income from premiums: \(I_{\text{premium}} = N_{\text{premium}} \times 150\)
+  - FIAT income from premiums: `I_{\text{premium}} = N_{\text{premium}} \times 150`
 
-  - AI usage fee income: \(I_{\text{AI}} = N_{\text{total}} \times 50 \times 0.15\)
+  - AI usage fee income: `I_{\text{AI}} = N_{\text{total}} \times 50 \times 0.15`
 
-  - Marketplace FIAT fee: \(I_{\text{mkt,FIAT}} = N_{\text{total}} \times 20 \times 0.15\)
+  - Marketplace FIAT fee: `I_{\text{mkt,FIAT}} = N_{\text{total}} \times 20 \times 0.15`
 
-  - Marketplace FRGE fee (burned): \(I_{\text{mkt,FRGE}} = N_{\text{total}} \times 5 \times 0.05\)
+  - Marketplace FRGE fee (burned): `I_{\text{mkt,FRGE}} = N_{\text{total}} \times 5 \times 0.05`
 
-  - **Total FIAT income:** \(I_{\text{FIAT,tot}} = I_{\text{premium}} + I_{\text{AI}} + I_{\text{mkt,FIAT}}\)
+  - **Total FIAT income:** `I_{\text{FIAT,tot}} = I_{\text{premium}} + I_{\text{AI}} + I_{\text{mkt,FIAT}}`
 
-  - **FIAT used to buy and burn FRGE:** \(B_{\text{FRGE,FIAT}} = I_{\text{premium}} \times 0.2\)
+  - **FIAT used to buy and burn FRGE:** `B_{\text{FRGE,FIAT}} = I_{\text{premium}} \times 0.2`
 
-  - **FRGE burned (marketplace + data):** \(B_{\text{FRGE,direct}} = I_{\text{mkt,FRGE}} + N_{\text{free}}\)
+  - **FRGE burned (marketplace + data):** `B_{\text{FRGE,direct}} = I_{\text{mkt,FRGE}} + N_{\text{free}}`
 
-  - **Total FRGE burned:** \(B_{\text{FRGE,tot}} = B_{\text{FRGE,FIAT}} + B_{\text{FRGE,direct}}\)
+  - **Total FRGE burned:** `B_{\text{FRGE,tot}} = B_{\text{FRGE,FIAT}} + B_{\text{FRGE,direct}}`
 
 | **Users** | **Premium Users** | **Free Users** | **Monthly FIAT** | **Monthly FRGE Burned** |
 | :-------: | :---------------: | :------------: | :--------------: | :---------------------: |
@@ -433,31 +433,31 @@ To illustrate the platform’s earning potential and the resulting FRGE buy and 
 
 # Roadmap
 
-<div style="color: fabAccent">
+
 
 -----
 
-</div>
+
 
 # Conclusion
 
-<div style="color: fabAccent">
+
 
 -----
 
-</div>
 
-<span><span style="color: fabPrimary">** The Future of Hardware Innovation**</span></span>
 
-**<span style="color: fabPrimary"> \!Forge</span>** represents a paradigm shift in smart device creation. By combining AI, blockchain, and manufacturing networks, we’re democratizing a previously gatekept field and establishing a transparent, rewarding ecosystem for all participants.
+** The Future of Hardware Innovation**
 
-  - **<span style="color: fabPrimary"> For Creators:</span>** \!Forge removes technical barriers, empowering anyone to transform ideas into functional devices.
+** !Forge** represents a paradigm shift in smart device creation. By combining AI, blockchain, and manufacturing networks, we’re democratizing a previously gatekept field and establishing a transparent, rewarding ecosystem for all participants.
 
-  - **<span style="color: fabPrimary"> For AI Providers:</span>** Our platform facilitates access to valuable hardware training data in an ethical, consensual marketplace.
+  - ** For Creators:** !Forge removes technical barriers, empowering anyone to transform ideas into functional devices.
 
-  - **<span style="color: fabPrimary"> For Manufacturers:</span>** We connect local manufacturing capacity directly with a growing customer base of creators.
+  - ** For AI Providers:** Our platform facilitates access to valuable hardware training data in an ethical, consensual marketplace.
 
-  - **<span style="color: fabPrimary"> For Token Holders:</span>** FRGE offers sustainable utility and growth potential through genuine marketplace demand.
+  - ** For Manufacturers:** We connect local manufacturing capacity directly with a growing customer base of creators.
+
+  - ** For Token Holders:** FRGE offers sustainable utility and growth potential through genuine marketplace demand.
 
 **Key Takeaways:**
 

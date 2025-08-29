@@ -1,14 +1,14 @@
-<span><span style="color: fabPrimary">** The Future of Hardware Innovation**</span></span>
+** The Future of Hardware Innovation**
 
-**<span style="color: fabPrimary"> \!Forge</span>** represents a paradigm shift in smart device creation. By combining AI, blockchain, and manufacturing networks, we’re democratizing a previously gatekept field and establishing a transparent, rewarding ecosystem for all participants.
+** !Forge** represents a paradigm shift in smart device creation. By combining AI, blockchain, and manufacturing networks, we’re democratizing a previously gatekept field and establishing a transparent, rewarding ecosystem for all participants.
 
-  - **<span style="color: fabPrimary"> For Creators:</span>** \!Forge removes technical barriers, empowering anyone to transform ideas into functional devices.
+  - ** For Creators:** !Forge removes technical barriers, empowering anyone to transform ideas into functional devices.
 
-  - **<span style="color: fabPrimary"> For AI Providers:</span>** Our platform facilitates access to valuable hardware training data in an ethical, consensual marketplace.
+  - ** For AI Providers:** Our platform facilitates access to valuable hardware training data in an ethical, consensual marketplace.
 
-  - **<span style="color: fabPrimary"> For Manufacturers:</span>** We connect local manufacturing capacity directly with a growing customer base of creators.
+  - ** For Manufacturers:** We connect local manufacturing capacity directly with a growing customer base of creators.
 
-  - **<span style="color: fabPrimary"> For Token Holders:</span>** FRGE offers sustainable utility and growth potential through genuine marketplace demand.
+  - ** For Token Holders:** FRGE offers sustainable utility and growth potential through genuine marketplace demand.
 
 **Key Takeaways:**
 
