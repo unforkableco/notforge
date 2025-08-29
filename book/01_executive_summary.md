@@ -1,3 +1,5 @@
+# Executive Summary
+
 **Building the Future of Smart Device Creation**
 
 !Forge democratizes smart device creation through AI and blockchain technology. Our platform transforms ideas into physical reality without requiring engineering expertise, opening the $500B+ smart device market to everyone.

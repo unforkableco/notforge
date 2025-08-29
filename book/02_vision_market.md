@@ -1,3 +1,5 @@
+# Market Opportunity
+
 The smart device market is projected to reach **$1.3 trillion by 2026**, with a CAGR of 11.2% driven by:
 
   - **Growing demand** for customized IoT solutions across industries
@@ -28,7 +30,7 @@ The smart device market is projected to reach **$1.3 trillion by 2026**, with a 
 
   - **Complex manufacturing logistics** requiring specialized knowledge and connections
 
-**\!FORGE Platform**
+**!FORGE Platform**
 
 The market shows a clear opportunity for a unified platform that:
 

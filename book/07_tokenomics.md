@@ -1,3 +1,5 @@
+# Tokenomics
+
 ##  User Tiers and Data Monetization
 
 !Forge offers two user tiers: Free and Premium.
